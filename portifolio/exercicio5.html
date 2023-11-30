@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toyota</title>
+</head>
+<body>
+    <script>
+            document.getElementById("meuBotao").addEventListener("Click", 
+            function(){
+            var nome= document.getElementById("nome").value;
+            if(nome){
+                document.getElementById("minhaMensagen").innerHTML = "bom dia" + nome + "!"
+            }else {
+                document.getElementById("minhaMensagem").innerHTML = "Por favor, digite seu nome.";
+            }
+        });
+        document.getElementById("meuBotao").addEventListener("click",
+        function () {
+            document.getElementById("minhaMensagem").innerHTML = "Olá, Mundo!";
+        }
+        );
+    </script>
+    <h1>Toyota</h1>
+    <br>
+    <button> clique em mim</button>
+    <input type="text" class="for-control"id="nome" placeholder="Seu nome">
+    <label for="nome">digite seu nome</label>
+    <p id="minhaMensagem"></p>
+</body>
+</html>
