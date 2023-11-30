@@ -1,0 +1,30 @@
+header {
+    padding: 500px ;
+    text-align: center  ;
+}
+
+body {
+	background:linear-gradient(black,rgb(3, 25, 99), rgb(148, 148, 148))
+    
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+    
+}
+
+h1 {
+    color: rgb(80, 74, 74);
+}
+
+h2 {
+    color: rgb(80, 74, 74);
+}
+
